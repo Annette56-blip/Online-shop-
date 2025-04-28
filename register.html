@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | My Shop</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Create Account</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/products">Products</a>
+      <a href="/register">Register</a>
+      <a href="/login">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="/register-user" method="POST">
+      <label>Full Name:</label><br>
+      <input type="text" name="fullname" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="password" required><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Shop</p>
+  </footer>
+</body>
+</html>
